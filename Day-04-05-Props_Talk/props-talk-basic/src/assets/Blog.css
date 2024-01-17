@@ -1,0 +1,8 @@
+/* Blog styling */
+.blog {
+  border: #c0c0c0 solid 1px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  text-align: left;
+  padding: 12px;
+}
