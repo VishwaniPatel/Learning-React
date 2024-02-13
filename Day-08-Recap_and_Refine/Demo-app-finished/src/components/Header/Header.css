@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+ul,
+li {
+  list-style: none;
+}
+.menu {
+  display: flex;
+  justify-content: between;
+}
+.menu li {
+  margin-right: 24px;
+}

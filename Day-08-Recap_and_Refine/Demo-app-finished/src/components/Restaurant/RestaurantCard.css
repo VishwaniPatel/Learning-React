@@ -1,0 +1,76 @@
+.card {
+  border: 1px solid #c9c9c97d;
+  padding: 0 0 10px 0;
+  /* height: 245px; */
+  font-size: 0.75rem;
+  background-color: #ffffff !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 0.5rem;
+  overflow: hidden;
+  border-radius: 16px;
+  position: relative;
+}
+.card-wrapper {
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.card:hover {
+  border-color: rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.12) 0px 0.4rem 1.8rem;
+
+  transition: all 0.3s ease-in;
+}
+.img-wrapper {
+  overflow: hidden;
+  height: 170px;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+/* .cardImg {
+  /* width: 100%; */
+/* max-height: 100%; */
+/* overflow: hidden; */
+/* } */
+*/ .resName {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(44, 44, 44);
+  margin-bottom: 6px;
+}
+
+.res-name p {
+  color: #868383;
+  height: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: #e68c47;
+}
+.red {
+  background-color: red;
+}
+/* .card {
+  position: relative;
+  overflow: hidden;
+} */
+
+
+
+.card:hover .modal {
+  visibility: visible;
+  opacity: 1;
+}
