@@ -1,0 +1,14 @@
+/* Content.css */
+.content {
+    padding: 20px;
+  }
+  
+  .featured-items,
+  .latest-news {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+ 
+  

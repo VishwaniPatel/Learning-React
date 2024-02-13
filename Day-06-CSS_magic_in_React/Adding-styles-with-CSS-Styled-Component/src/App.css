@@ -1,0 +1,20 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f8f8f8;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+/* Other styling for your app components */

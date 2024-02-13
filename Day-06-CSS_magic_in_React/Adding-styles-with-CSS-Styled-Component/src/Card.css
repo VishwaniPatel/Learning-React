@@ -1,0 +1,12 @@
+ /* Add styles for the Card component */
+ .card {
+    flex: 0 0 30%;
+    background-color: #f0f0f0;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .card:hover {
+    background-color: #e0e0e0;
+  }
